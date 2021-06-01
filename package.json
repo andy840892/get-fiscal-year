@@ -6,6 +6,7 @@
   "module": "dist/get-fiscal-year.esm.js",
   "types": "dist/get-fiscal-year.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "start": "live-server",
     "prebuild": "rimraf dist",
     "build": "rollup -c",
